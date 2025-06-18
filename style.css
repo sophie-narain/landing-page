@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+ul, .right {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin: 0px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
