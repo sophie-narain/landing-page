@@ -50,7 +50,7 @@ button {
     margin: 20px;
 }
 
-#info {
+#hero {
     display: flex;
     margin: 30px 10px;
 }
@@ -62,4 +62,31 @@ img {
 .navbar {
     margin-top: 0px;
     padding-top: 0px;
+}
+
+
+.infotext {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.infopic, .infopic img {
+    max-width: 250px;
+}
+.infopic img {
+    height: auto;
+    border: 5px solid #3882f6;
+}
+
+.infopic span {
+    color: #28292c;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
 }
