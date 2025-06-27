@@ -90,3 +90,17 @@ img {
     justify-content: space-evenly;
     margin: 20px;
 }
+
+#quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 70px;
+}
+.quoteone {
+    font-size: 36px;
+    font-style: italic;  
+}
+
+.quotetwo {
+    font-weight: bold;
+}
