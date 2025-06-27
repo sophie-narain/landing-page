@@ -9,8 +9,6 @@ body {
 ul, .right {
     display: flex;
     justify-content: space-between;
-    flex-shrink: 0;
-    margin: 0;
 }
 
 a {
@@ -20,16 +18,13 @@ a {
 
 li {
     list-style-type: none;
-    padding-left: 0px;
-    padding-right: 15px;;
+    padding-right: 20px;
 }
 
 header {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 70px;
-    margin: 0px;
-    border: 0px;
+    padding: 10px 70px;
 }
 
 h1 {
@@ -53,15 +48,18 @@ button {
     padding: 10px;
     font-size: 16px;
     margin: 20px;
-    flex-grow: 0;
-}
-
-#info.infopic {
-    width: 200px;
-    height: auto;
 }
 
 #info {
     display: flex;
-    margin: 20px 10px;
+    margin: 30px 10px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.navbar {
+    margin-top: 0px;
+    padding-top: 0px;
 }
