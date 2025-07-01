@@ -104,3 +104,19 @@ img {
 .quotetwo {
     font-weight: bold;
 }
+
+.call {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 30px;
+    margin: 120px;
+    border-radius: 16px;
+    justify-content: space-evenly;
+}
+
+.call button {
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+}
